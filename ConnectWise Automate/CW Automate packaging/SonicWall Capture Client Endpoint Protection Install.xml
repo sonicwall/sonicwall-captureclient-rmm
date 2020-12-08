@@ -1,0 +1,93 @@
+﻿<LabTech_Expansion
+	Version="200.81"
+	Name="LabTech Script Expansion"
+	Type="PackedScript">
+	<PackedScript>
+		<NewDataSet>
+			<Table>
+				<ScriptId>865</ScriptId>
+				<FolderId>121</FolderId>
+				<ScriptName>SonicWall Capture Client Endpoint Protection Install</ScriptName>
+				<ScriptNotes>This script installs the SonicWall Endpoint Protection NGAV software.  The script will download the installer files from the folder in the Transfer\Software\SonicWall\Endpoint\ to the computer being installed to, with the following corresponding filename: Capture Client.%version%.msi</ScriptNotes>
+				<Permission>0,</Permission>
+				<EditPermission>0,</EditPermission>
+				<ComputerScript>1</ComputerScript>
+				<LocationScript>0</LocationScript>
+				<MaintenanceScript>0</MaintenanceScript>
+				<FunctionScript>0</FunctionScript>
+				<LicenseData>H4sIAAAAAAAEAFWPwQrCMBBE74L/kA9oSFNNQ8sSEBUvFkTFe0i2kkta0gTs32uLQj0sy8zsG1g4O4N+wIOOWsF97FFxYPOGa/L7LvmIQeXAFgqOr96FiUHVdN7qMSO79ExDJEWefYYXhBd1IWohyaUBtriHmwmujw8Mg+v8VPxvfPNTclbJTWVlLiUVaFrKOWqqOTeUl7oqbWvEFs2PnwFgy3fWqzf+VmEe3gAAAA==</LicenseData>
+				<ScriptData>H4sIAAAAAAAEAOVaXW/aOhi+P9L+gzeJm6MFEpMQQD0RR5RuSNU2jWq74cYkDrVO4nBspx//fk5wgLASGHVWpbtp/dqO6zx+3o/H6cXMZ2QlLpFA3pu/ALhY2zw3pDl5EAxlo1cERwEHnWLgC2IoxgKznb4PUbJAEfdG60UmdEkonlC0iPB1slxiNvrnhqX4olNMVM+tp3+Ta5GEetZFp9xRmvUhJYHndgeBa7qu4WA/NCwLIwNZlm9YPTToBaHv2NgvVskfyF+ts/tuarmZwKvNPv71hdqAaqn+q5Tm9jTIxnasXSysPWzgnt3ds+0929nas4QJz5T7zX6rvnFCBaEpzvo3bTX2mV+TmOSPFE01MqUBpgLlLyNHd81dSLYoVMACq2Axu4eB8QYoQKiH5XG5fWjYC3tg9ANkGwvXdhFETjiAcnNqcglDbzSOiNzy9HKkJsAyqJ7AFMnxQA13/1SMu2HYt0zLMRYDu2/YIVwYg4UZGBA60LH7foBM/1yM79aOeBbEVpMgds0KhPeYto8ifBq8fa/3hp+SG7XSZ6ZC3BeW3JGsgYvV7UpQ4asBtUytl8S02yRMHfu35SG7SbhYsIpsY7QSKcNgHe8OcO7t8DK5p1GCgiuWxDcMUR5idknYaVw8gqbTJDThoALMWUKJ/x1FESjDCiY0WCVENqQHCpw/DAgHKGIYBY+AUC7kUzhog8kDkW+8BDzfXfvpA3kmfXu6AbdqpW8F4pr92m0UMN0qKh7xWL2E6jfJg62qROG17gkNCGvNI8Hv/PkK+f+hJeZznrn2vXTSWgAcNIp41rMAnB+Kku2RqnxG7VFRWI7aMScHspJ5oDQfTtfhdELzmLsNuecV69oFEawzPfUr01Mo7hHD89n38fiUYziM/eaUr29mmk45Q0FDNWGdoa4s98UO7EgUP0JlvVHIapSGqq7EBGICKPSyemqXjkcqs3qw1a6lag3xZhW4G+fnj1zguAvn0n3xA/bb8gfoEPCuhiTwDnSiv++AbLWjZAk6/594Th6/xVH0FfM0EuclAO1qr1unV1Tcxua5rA5ua1dwdXK7Mm60crawnC2tesDSrr5eyaWK1Sz19fxbleEVoYTf6ql6tEuwF3PBX8jUIEQkwgEQSZHqf7pAAR+xXEIWvUDcYrB2bA5CKYrzDnXzAvwkjhENhqAUAEA9EUC72quzQLV7VeGy+ExyIFbKCUm8SgVm2yn7cq2VvTPyxSSWh9l6OkX/EimKM1XkkD2bXXxCMW49ffV9Ju82V3c//x2ABGj5+SI0s5/HRbVrp0Ql2CxxmhUKvymbQO0f2V5QBZ70KUdvkIKvRwsWMgIkDChxkV2+00SA1RbF98BHNOsr3PCQQqkHbu3y8NU4cqPk1xFHLlV8mhn0h35Gm24S8Cz1fcx5mEbRYz0fzqB27XaClxa2+n+0H09OKEeeJgAA</ScriptData>
+				<ScriptVersion>1</ScriptVersion>
+				<ScriptGuid>739d7077-5ecf-11ea-a11c-16a96dfc54ec</ScriptGuid>
+				<ScriptFlags>0</ScriptFlags>
+				<Parameters></Parameters>
+			</Table>
+		</NewDataSet>
+		<ExtraDataField>
+			<NewDataSet>
+				<Table>
+					<ID>318</ID>
+					<Form>3</Form>
+					<Name>SWCCtenantId</Name>
+					<Sort>0</Sort>
+					<NoBreak>0</NoBreak>
+					<FType>0</FType>
+					<Section>SonicWall Capture Client</Section>
+					<UnEditable>0</UnEditable>
+					<Collapsed>0</Collapsed>
+					<Fill>Enter the tenantid for the tenant shown under Console-&gt; Management-&gt;tenat Settings</Fill>
+					<LtGuid>9adaa6e7-5782-4b49-8da4-b747a2a5f920</LtGuid>
+					<IsPassword>false</IsPassword>
+					<IsEncrypted>false</IsEncrypted>
+					<IsHidden>false</IsHidden>
+					<IsRestricted>false</IsRestricted>
+					<ViewPermissions></ViewPermissions>
+					<EditPermissions></EditPermissions>
+				</Table>
+			</NewDataSet>
+		</ExtraDataField>
+		<ExtraDataField>
+			<NewDataSet>
+				<Table>
+					<ID>317</ID>
+					<Form>3</Form>
+					<Name>SWCCVersion</Name>
+					<Sort>1</Sort>
+					<NoBreak>0</NoBreak>
+					<FType>0</FType>
+					<Section>SonicWall Capture Client</Section>
+					<UnEditable>0</UnEditable>
+					<Collapsed>0</Collapsed>
+					<Fill>Enter the tenantid for the version of Capture Client</Fill>
+					<LtGuid>3ff81015-b948-4f2b-9b0d-2252548cda0c</LtGuid>
+					<IsPassword>false</IsPassword>
+					<IsEncrypted>false</IsEncrypted>
+					<IsHidden>false</IsHidden>
+					<IsRestricted>false</IsRestricted>
+					<ViewPermissions></ViewPermissions>
+					<EditPermissions></EditPermissions>
+				</Table>
+			</NewDataSet>
+		</ExtraDataField>
+		<ScriptFolder>
+			<NewDataSet>
+				<Table>
+					<FolderID>121</FolderID>
+					<ParentID>32</ParentID>
+					<Name>SonicWall Capture Client</Name>
+					<GUID>d804682b-ee60-45ec-b18d-ac6f37a1aaae</GUID>
+				</Table>
+			</NewDataSet>
+		</ScriptFolder>
+		<ScriptFolder>
+			<NewDataSet>
+				<Table>
+					<FolderID>32</FolderID>
+					<ParentID>0</ParentID>
+					<Name>Antivirus</Name>
+					<GUID>8261b97d-eb72-4d61-8a76-827c805f4d29</GUID>
+				</Table>
+			</NewDataSet>
+		</ScriptFolder>
+	</PackedScript>
+</LabTech_Expansion>

@@ -1,0 +1,2 @@
+
+INSERT INTO `extrafield` (`Form`,`Name`,`Sort`,`NoBreak`,`FType`,`Section`,`UnEditable`,`Collapsed`,`Fill`,`LtGuid`,`IsPassword`,`IsEncrypted`,`IsHidden`,`IsRestricted`,`ViewPermissions`,`EditPermissions`) Values('2','SWCCVersion','0','0','0','SonicWall Capture Client','0','0','Enter the tenantid for the version of Capture Client','0050154c-0b65-4dda-ac82-6ea4354ca418','False','False','False','False','','');

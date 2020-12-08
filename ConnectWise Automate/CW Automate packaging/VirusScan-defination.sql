@@ -1,0 +1,2 @@
+
+INSERT INTO `virusscanners` (`Name`,`DefLocation`,`DefFilename`,`ProgLocation`,`UpdateCMD`,`ScanTemplate`,`AutoProtect`,`OsType`,`VersionCheck`,`VersionMask`,`InfectionCheck`,`InfectionMatch`,`GUID`) Values('SonicWall Capture Client - Windows','%programfiles(x86)%\\SonicWall\\Capture Client\\tmp\\versionHistory.txt','(.*)','%programfiles(x86)%\\SonicWall\\Capture Client\\SonicWall Capture Client.exe','','','Sonicwall Capture Client*','1','','','','','73fd0777-cb18-45cc-8dc7-fa4a9348456a');

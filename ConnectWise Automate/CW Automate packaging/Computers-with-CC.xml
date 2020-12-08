@@ -1,0 +1,33 @@
+﻿<LabTech_Expansion
+	Version="200.81"
+	Name="LabTech Search Expansion"
+	Type="Search">
+	<Search>
+		<NewDataSet>
+			<Table>
+				<SensID>1126</SensID>
+				<Name>Antivirus - SonicWall Capture Client</Name>
+				<SQL>SELECT 
+   computers.computerid as `Computer Id`,
+   computers.name as `Computer Name`,
+   clients.name as `Client Name`,
+   computers.domain as `Computer Domain`,
+   computers.username as `Computer User`,
+   Software.Name as `Computer.Applications.Name`
+FROM Computers 
+LEFT JOIN inv_operatingsystem ON (Computers.ComputerId=inv_operatingsystem.ComputerId)
+LEFT JOIN Clients ON (Computers.ClientId=Clients.ClientId)
+LEFT JOIN Locations ON (Computers.LocationId=Locations.LocationID)
+LEFT JOIN Software ON (Software.ComputerId = Computers.ComputerId)
+ WHERE 
+((Software.Name = 'Capture Client'))
+</SQL>
+				<QueryType>4</QueryType>
+				<ListDATA></ListDATA>
+				<FolderID>24</FolderID>
+				<GUID>ce1e0228-fdde-47df-8249-9690f1891b2a</GUID>
+				<SearchXML>&lt;LabTechAbstractSearch&gt;&lt;asn&gt;&lt;st&gt;AndNode&lt;/st&gt;&lt;cn&gt;&lt;asn&gt;&lt;st&gt;ComparisonNode&lt;/st&gt;&lt;lon&gt;Computer.Applications.Name&lt;/lon&gt;&lt;lok&gt;Computer.Applications.Name&lt;/lok&gt;&lt;lmo&gt;Equals&lt;/lmo&gt;&lt;dv&gt;Capture Client&lt;/dv&gt;&lt;dk&gt;Capture Client&lt;/dk&gt;&lt;/asn&gt;&lt;/cn&gt;&lt;/asn&gt;&lt;/LabTechAbstractSearch&gt;</SearchXML>
+			</Table>
+		</NewDataSet>
+	</Search>
+</LabTech_Expansion>
