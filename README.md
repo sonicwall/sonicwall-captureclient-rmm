@@ -7,7 +7,7 @@ The integration helps to
 - Identify endpoints without Capture Client
 
 Currently the integration supports
-- [ConnectWise Automate](ConnectWise Automate/README.md)
+- [ConnectWise Automate](ConnectWise_Automate/README.md)
 - [Datto RMM](Datto/README.md)
 - [Continuum RMM](Continuum/README.md)
-- [Microsoft Endpoint Manager](Microsoft Endpoint Manager/README.md)
+- [Microsoft Endpoint Manager](Microsoft_Endpoint_Manager/README.md)
