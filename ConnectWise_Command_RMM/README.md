@@ -11,7 +11,7 @@ Before starting the integration, make sure that the ConnectWise Command RMM agen
 
 ## Configuring ConnectWise Command RMM
 
-1.	Navigate to the **Scripts** section in Contumuum RMM and create a new script from **Add > Add from template** and select *Create own application* from list of templates.
+1.	Navigate to the **Scripts** section in ConnectWise Command RMM and create a new script from **Add > Add from template** and select *Create own application* from list of templates.
 
 2.	Add the below details to create the script
 	-	Script Name: SonicWall Capture Client Deploy Windows, add description
