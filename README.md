@@ -9,5 +9,5 @@ The integration helps to
 Currently the integration supports
 - [ConnectWise Automate](ConnectWise_Automate/README.md)
 - [Datto RMM](Datto/README.md)
-- [Continuum RMM](Continuum/README.md)
+- [ConnectWise_Command_RMM](ConnectWise_Command_RMM/README.md)
 - [Microsoft Endpoint Manager](Microsoft_Endpoint_Manager/README.md)

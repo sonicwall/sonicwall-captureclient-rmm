@@ -1,15 +1,15 @@
-# Integration Guide: SonicWall Capture Client and Continuum RMM
-This repo describes how SonicWall Capture Client integrates with Continuum  Remote Monitoring & Management (RMM) tool. This integration helps:  Install Capture Client on the endpoint using the Continuum  platform and displays that Capture Client is installed on the device details in device list page
+# Integration Guide: SonicWall Capture Client and ConnectWise Command RMM
+This repo describes how SonicWall Capture Client integrates with ConnectWise Command  Remote Monitoring & Management (RMM) tool. This integration helps:  Install Capture Client on the endpoint using the ConnectWise Command  platform and displays that Capture Client is installed on the device details in device list page
 
-## About Continuum RMM
-[Continuum  RMM](https://www.continuum.net/platform/solutions/command) is an IT automation solution that helps companies track and manage IT assets from a single location. This document describes the steps that need to be performed to be able to configure the integration successfully.
+## About ConnectWise Command RMM
+[ConnectWise Command  RMM](https://www.continuum.net/platform/solutions/command) is an IT automation solution that helps companies track and manage IT assets from a single location. This document describes the steps that need to be performed to be able to configure the integration successfully.
 
 
 ## Requirements 
-Before starting the integration, make sure that the Continuum RMM agent is installed on the endpoints and is being reported in the Continuum RMM console.
+Before starting the integration, make sure that the ConnectWise Command RMM agent is installed on the endpoints and is being reported in the ConnectWise Command RMM console.
               
 
-## Configuring Continuum RMM
+## Configuring ConnectWise Command RMM
 
 1.	Navigate to the **Scripts** section in Contumuum RMM and create a new script from **Add > Add from template** and select *Create own application* from list of templates.
 
